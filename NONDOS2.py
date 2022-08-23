@@ -14,17 +14,19 @@ banner = """
 print(banner)
 
 print("""
-nonassistant - Assistant On NONDOS2 
+nonhacksimulator - Hack Simulator
 nongamedownloader - Free Games For PC
+nonencrypt2 - Encrypt Your Texts
 """)
 
 whatyouwant = input("What Do You Want ---> ")
 
-if whatyouwant == "nonassistant":
-    nonassistant2 = input("NONDOS2 Assistant ---> ")
-    if nonassistant2 == "Hello":
-        os.system("echo off")
-        os.system("echo Hello To You Too")
+if whatyouwant == "nonhacksimulator":
+        os.system("cd/")
+        os.system("tree")
+        os.system("tree")
+        time.sleep(9999)
+
 if whatyouwant == "nongamedownloader":
     print("""
 Games :

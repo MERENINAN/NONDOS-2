@@ -17,9 +17,17 @@ print("""
 nonhacksimulator - Hack Simulator
 nongamedownloader - Free Games For PC
 nonencrypt2 - Encrypt Your Texts
+nondecrypt2 - Decrypt Your Texts
+shutdown - Shutdown Your Computer
 """)
 
 whatyouwant = input("What Do You Want ---> ")
+
+if whatyouwant == "shutdown":
+        os.system("shutdown -s")
+
+if whatyouwant == "nonencrypt2":
+        print("")
 
 if whatyouwant == "nonhacksimulator":
         os.system("cd/")

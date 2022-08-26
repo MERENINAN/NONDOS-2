@@ -1,3 +1,4 @@
+from sndhdr import what
 from setuptools import setup
 import os
 import time
@@ -19,15 +20,22 @@ nongamedownloader - Free Games For PC
 nonencrypt2 - Encrypt Your Texts
 nondecrypt2 - Decrypt Your Texts
 shutdown - Shutdown Your Computer
+nontranslator - Translate Your Words
 """)
 
 whatyouwant = input("What Do You Want ---> ")
 
+if whatyouwant == "nontranslator":
+        print("To open NON-TRANSLATOR, in the NONDOS-2 Folder NONTRANSLATOR.py open his file.")
+
 if whatyouwant == "shutdown":
         os.system("shutdown -s")
 
+if whatyouwant == "nondecrypt2":
+        print("Decrypt Your Texts")
+
 if whatyouwant == "nonencrypt2":
-        print("")
+        print("Encrypt Your Texts")
 
 if whatyouwant == "nonhacksimulator":
         os.system("cd/")

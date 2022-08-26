@@ -1,2 +1,5 @@
 # NONDOS-2
 NON DOS 2
+
+# NON TRANSLATOR
+Non Translator
